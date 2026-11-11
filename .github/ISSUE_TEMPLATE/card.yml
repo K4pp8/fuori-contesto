@@ -1,0 +1,25 @@
+name: Proponi carte italiane
+description: Nuove frasi o risposte originali
+title: '[Carte] '
+body:
+  - type: textarea
+    id: cards
+    attributes:
+      label: Carte proposte
+      description: Indica frase o risposta, numero di carte richieste ed esempi di combinazione.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Provenienza e assistenza AI
+      description: Dichiara se le carte sono originali e se è stata usata assistenza AI.
+    validations:
+      required: true
+  - type: checkboxes
+    id: license
+    attributes:
+      label: Licenza
+      options:
+        - label: Confermo di poter offrire questi contenuti originali sotto CC0-1.0.
+          required: true

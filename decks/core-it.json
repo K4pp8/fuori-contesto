@@ -1,0 +1,905 @@
+{
+  "id": "fuori-contesto-it",
+  "name": "Il mazzo di casa",
+  "language": "it",
+  "version": "1.0.0",
+  "description": "Vita italiana, internet e altre pessime idee. Carte originali, qualche parolaccia e zero filtri alla fantasia.",
+  "license": "CC0-1.0",
+  "attribution": "Fuori Contesto contributors · mazzo originale creato con assistenza AI, da curare con la community.",
+  "source": "https://github.com/K4pp8/fuori-contesto",
+  "mature": true,
+  "prompts": [
+    {
+      "id": "fc-p-001",
+      "text": "Il vero motivo per cui il gruppo WhatsApp è stato silenziato: ____.",
+      "pick": 1
+    },
+    {
+      "id": "fc-p-002",
+      "text": "La nuova funzione dell'intelligenza artificiale? ____.",
+      "pick": 1
+    },
+    {
+      "id": "fc-p-003",
+      "text": "Alla riunione di condominio ho portato ____.",
+      "pick": 1
+    },
+    {
+      "id": "fc-p-004",
+      "text": "Per salvare il matrimonio, abbiamo provato ____.",
+      "pick": 1
+    },
+    {
+      "id": "fc-p-005",
+      "text": "Il mio commercialista accetta pagamenti in ____.",
+      "pick": 1
+    },
+    {
+      "id": "fc-p-006",
+      "text": "La cosa che manca al Festival di Sanremo è ____.",
+      "pick": 1
+    },
+    {
+      "id": "fc-p-007",
+      "text": "Nel mio curriculum ho aggiunto ____.",
+      "pick": 1
+    },
+    {
+      "id": "fc-p-008",
+      "text": "La nonna ha un rimedio per tutto: ____.",
+      "pick": 1
+    },
+    {
+      "id": "fc-p-009",
+      "text": "Il colloquio stava andando bene. Poi ho nominato ____.",
+      "pick": 1
+    },
+    {
+      "id": "fc-p-010",
+      "text": "La mia red flag? ____.",
+      "pick": 1
+    },
+    {
+      "id": "fc-p-011",
+      "text": "Il prossimo bonus del governo finanzierà ____.",
+      "pick": 1
+    },
+    {
+      "id": "fc-p-012",
+      "text": "Dopo tre spritz, la mia personalità diventa ____.",
+      "pick": 1
+    },
+    {
+      "id": "fc-p-013",
+      "text": "Non sono in ritardo, stavo combattendo contro ____.",
+      "pick": 1
+    },
+    {
+      "id": "fc-p-014",
+      "text": "Il vero lusso a Milano è ____.",
+      "pick": 1
+    },
+    {
+      "id": "fc-p-015",
+      "text": "Nella chat di famiglia è comparso ____.",
+      "pick": 1
+    },
+    {
+      "id": "fc-p-016",
+      "text": "Il nuovo gusto del gelato artigianale: ____.",
+      "pick": 1
+    },
+    {
+      "id": "fc-p-017",
+      "text": "La password del Wi-Fi è ____.",
+      "pick": 1
+    },
+    {
+      "id": "fc-p-018",
+      "text": "Il mio terapeuta ha smesso di prendere appunti quando ho parlato di ____.",
+      "pick": 1
+    },
+    {
+      "id": "fc-p-019",
+      "text": "La vacanza perfetta: sole, mare e ____.",
+      "pick": 1
+    },
+    {
+      "id": "fc-p-020",
+      "text": "L'assemblea si è conclusa con ____.",
+      "pick": 1
+    },
+    {
+      "id": "fc-p-021",
+      "text": "Ho aperto una startup che vende ____.",
+      "pick": 1
+    },
+    {
+      "id": "fc-p-022",
+      "text": "Il segreto per una relazione duratura è ____.",
+      "pick": 1
+    },
+    {
+      "id": "fc-p-023",
+      "text": "Sotto l'albero di Natale ho trovato ____.",
+      "pick": 1
+    },
+    {
+      "id": "fc-p-024",
+      "text": "Il mio piano pensionistico si basa su ____.",
+      "pick": 1
+    },
+    {
+      "id": "fc-p-025",
+      "text": "Questa call poteva essere ____.",
+      "pick": 1
+    },
+    {
+      "id": "fc-p-026",
+      "text": "La prossima stagione del reality sarà ambientata dentro ____.",
+      "pick": 1
+    },
+    {
+      "id": "fc-p-027",
+      "text": "Ho speso tutto il budget del matrimonio in ____.",
+      "pick": 1
+    },
+    {
+      "id": "fc-p-028",
+      "text": "Il condimento che divide davvero gli italiani: ____.",
+      "pick": 1
+    },
+    {
+      "id": "fc-p-029",
+      "text": "Il mio vicino nasconde ____.",
+      "pick": 1
+    },
+    {
+      "id": "fc-p-030",
+      "text": "La risposta del servizio clienti è stata ____.",
+      "pick": 1
+    },
+    {
+      "id": "fc-p-031",
+      "text": "La recensione a cinque stelle menziona soprattutto ____.",
+      "pick": 1
+    },
+    {
+      "id": "fc-p-032",
+      "text": "Il mio personal trainer mi ha prescritto ____.",
+      "pick": 1
+    },
+    {
+      "id": "fc-p-033",
+      "text": "Cosa ho imparato dal mio ultimo appuntamento? ____.",
+      "pick": 1
+    },
+    {
+      "id": "fc-p-034",
+      "text": "Il vero significato di «ci aggiorniamo» è ____.",
+      "pick": 1
+    },
+    {
+      "id": "fc-p-035",
+      "text": "Prima del caffè sono ____. Dopo il caffè sono ____.",
+      "pick": 2
+    },
+    {
+      "id": "fc-p-036",
+      "text": "Il mio piano A: ____. Il mio piano B: ____.",
+      "pick": 2
+    },
+    {
+      "id": "fc-p-037",
+      "text": "Il nuovo ministero unirà ____ e ____.",
+      "pick": 2
+    },
+    {
+      "id": "fc-p-038",
+      "text": "Per una carbonara autentica servono ____ e ____.",
+      "pick": 2
+    },
+    {
+      "id": "fc-p-039",
+      "text": "La serata è iniziata con ____ ed è finita con ____.",
+      "pick": 2
+    },
+    {
+      "id": "fc-p-040",
+      "text": "La mia biografia in due capitoli: ____ e ____.",
+      "pick": 2
+    },
+    {
+      "id": "fc-p-041",
+      "text": "Per diventare virale basta unire ____ e ____.",
+      "pick": 2
+    },
+    {
+      "id": "fc-p-042",
+      "text": "Il pacchetto premium comprende ____ e ____.",
+      "pick": 2
+    },
+    {
+      "id": "fc-p-043",
+      "text": "Il futuro del lavoro? ____ con una spruzzata di ____.",
+      "pick": 2
+    },
+    {
+      "id": "fc-p-044",
+      "text": "La mia routine del mattino: ____, ____ e ____.",
+      "pick": 3
+    },
+    {
+      "id": "fc-p-045",
+      "text": "Per conquistare il mondo servono tre cose: ____, ____ e ____.",
+      "pick": 3
+    },
+    {
+      "id": "fc-p-046",
+      "text": "Il reparto risorse umane mi ha convocato per ____.",
+      "pick": 1
+    },
+    {
+      "id": "fc-p-047",
+      "text": "La nuova attrazione del paese è ____.",
+      "pick": 1
+    },
+    {
+      "id": "fc-p-048",
+      "text": "In caso di emergenza rompere il vetro e usare ____.",
+      "pick": 1
+    },
+    {
+      "id": "fc-p-049",
+      "text": "La vera prova di maturità è ____.",
+      "pick": 1
+    },
+    {
+      "id": "fc-p-050",
+      "text": "Il tema della cena aziendale: ____.",
+      "pick": 1
+    }
+  ],
+  "answers": [
+    {
+      "id": "fc-a-001",
+      "text": "Un vocale di sette minuti senza un punto."
+    },
+    {
+      "id": "fc-a-002",
+      "text": "La friggitrice ad aria con manie di grandezza."
+    },
+    {
+      "id": "fc-a-003",
+      "text": "Un piccione con partita IVA."
+    },
+    {
+      "id": "fc-a-004",
+      "text": "Il bidet come patrimonio dell'umanità."
+    },
+    {
+      "id": "fc-a-005",
+      "text": "Un aperitivo finanziato a rate."
+    },
+    {
+      "id": "fc-a-006",
+      "text": "La password scritta sotto il router."
+    },
+    {
+      "id": "fc-a-007",
+      "text": "Il cugino che conosce uno bravo."
+    },
+    {
+      "id": "fc-a-008",
+      "text": "Una riunione per decidere la prossima riunione."
+    },
+    {
+      "id": "fc-a-009",
+      "text": "Un abbonamento per annullare gli abbonamenti."
+    },
+    {
+      "id": "fc-a-010",
+      "text": "Il gruppo WhatsApp del condominio."
+    },
+    {
+      "id": "fc-a-011",
+      "text": "La sindrome dell'ultima fetta di pizza."
+    },
+    {
+      "id": "fc-a-012",
+      "text": "Un tutorial per respirare meglio."
+    },
+    {
+      "id": "fc-a-013",
+      "text": "Il parcheggio in seconda fila con le quattro frecce."
+    },
+    {
+      "id": "fc-a-014",
+      "text": "Una nonna armata di Tupperware."
+    },
+    {
+      "id": "fc-a-015",
+      "text": "Un bonifico accompagnato da sensi di colpa."
+    },
+    {
+      "id": "fc-a-016",
+      "text": "Il curriculum del mio gatto."
+    },
+    {
+      "id": "fc-a-017",
+      "text": "Una startup di scuse credibili."
+    },
+    {
+      "id": "fc-a-018",
+      "text": "La bestemmia in formato PDF."
+    },
+    {
+      "id": "fc-a-019",
+      "text": "L'ansia da «sta scrivendo…»."
+    },
+    {
+      "id": "fc-a-020",
+      "text": "Un influencer che sponsorizza il silenzio."
+    },
+    {
+      "id": "fc-a-021",
+      "text": "Il trauma di una carbonara con la panna."
+    },
+    {
+      "id": "fc-a-022",
+      "text": "Una stampante che sente la paura."
+    },
+    {
+      "id": "fc-a-023",
+      "text": "Una coppia aperta solo alle critiche."
+    },
+    {
+      "id": "fc-a-024",
+      "text": "Un commercialista in costume da bagno."
+    },
+    {
+      "id": "fc-a-025",
+      "text": "La mozzarella di supporto emotivo."
+    },
+    {
+      "id": "fc-a-026",
+      "text": "Il pavimento appiccicoso di una discoteca."
+    },
+    {
+      "id": "fc-a-027",
+      "text": "Un robot che giudica le mie scelte."
+    },
+    {
+      "id": "fc-a-028",
+      "text": "L'ennesimo podcast di due uomini con un microfono."
+    },
+    {
+      "id": "fc-a-029",
+      "text": "Un corso online per vendere corsi online."
+    },
+    {
+      "id": "fc-a-030",
+      "text": "Il buffet prima dell'arrivo degli invitati."
+    },
+    {
+      "id": "fc-a-031",
+      "text": "Una fattura intestata al destino."
+    },
+    {
+      "id": "fc-a-032",
+      "text": "L'algoritmo che sa troppo."
+    },
+    {
+      "id": "fc-a-033",
+      "text": "Un messaggio «ciao» senza seguito."
+    },
+    {
+      "id": "fc-a-034",
+      "text": "La vendetta del lievito madre."
+    },
+    {
+      "id": "fc-a-035",
+      "text": "La palestra pagata ma mai vista."
+    },
+    {
+      "id": "fc-a-036",
+      "text": "Un sindaco che inaugura una rotonda."
+    },
+    {
+      "id": "fc-a-037",
+      "text": "La sagra del disagio."
+    },
+    {
+      "id": "fc-a-038",
+      "text": "Una recensione negativa alla propria nascita."
+    },
+    {
+      "id": "fc-a-039",
+      "text": "Un calendario pieno di buone intenzioni."
+    },
+    {
+      "id": "fc-a-040",
+      "text": "La foto profilo del 2009."
+    },
+    {
+      "id": "fc-a-041",
+      "text": "Una crociera nel reparto surgelati."
+    },
+    {
+      "id": "fc-a-042",
+      "text": "Il karaoke durante una crisi diplomatica."
+    },
+    {
+      "id": "fc-a-043",
+      "text": "Un secondo lavoro come problema."
+    },
+    {
+      "id": "fc-a-044",
+      "text": "Il conto separato dopo dodici cocktail."
+    },
+    {
+      "id": "fc-a-045",
+      "text": "Un drago con un mutuo variabile."
+    },
+    {
+      "id": "fc-a-046",
+      "text": "La voce guida del navigatore delusa da me."
+    },
+    {
+      "id": "fc-a-047",
+      "text": "Un picco di autostima completamente ingiustificato."
+    },
+    {
+      "id": "fc-a-048",
+      "text": "Un pranzo di famiglia con moderatore."
+    },
+    {
+      "id": "fc-a-049",
+      "text": "Il Wi-Fi del vicino come unica certezza."
+    },
+    {
+      "id": "fc-a-050",
+      "text": "Tre ore di sonno e un sogno di gloria."
+    },
+    {
+      "id": "fc-a-051",
+      "text": "La paura di salutare la persona sbagliata."
+    },
+    {
+      "id": "fc-a-052",
+      "text": "Il cartello «torno subito» del 1997."
+    },
+    {
+      "id": "fc-a-053",
+      "text": "Un tiramisù con un passato oscuro."
+    },
+    {
+      "id": "fc-a-054",
+      "text": "Il sacchetto pieno di altri sacchetti."
+    },
+    {
+      "id": "fc-a-055",
+      "text": "Una relazione a distanza dalla realtà."
+    },
+    {
+      "id": "fc-a-056",
+      "text": "L'odore di un treno regionale ad agosto."
+    },
+    {
+      "id": "fc-a-057",
+      "text": "Una pentola a pressione emotiva."
+    },
+    {
+      "id": "fc-a-058",
+      "text": "Il capo che scrive «disturbo?» di domenica."
+    },
+    {
+      "id": "fc-a-059",
+      "text": "Un pavone in business class."
+    },
+    {
+      "id": "fc-a-060",
+      "text": "La voce «altro» del bilancio familiare."
+    },
+    {
+      "id": "fc-a-061",
+      "text": "Un fantasma che pretende la caparra."
+    },
+    {
+      "id": "fc-a-062",
+      "text": "Un assaggio che diventa una cena."
+    },
+    {
+      "id": "fc-a-063",
+      "text": "Un'intelligenza artificiale passivo-aggressiva."
+    },
+    {
+      "id": "fc-a-064",
+      "text": "Il collega che applaude quando atterra l'aereo."
+    },
+    {
+      "id": "fc-a-065",
+      "text": "Un bacio con il sapore di kebab."
+    },
+    {
+      "id": "fc-a-066",
+      "text": "La tessera punti dell'esaurimento nervoso."
+    },
+    {
+      "id": "fc-a-067",
+      "text": "Una raccomandata dall'universo."
+    },
+    {
+      "id": "fc-a-068",
+      "text": "Il ritardo come forma d'arte."
+    },
+    {
+      "id": "fc-a-069",
+      "text": "Un oroscopo scritto dal recupero crediti."
+    },
+    {
+      "id": "fc-a-070",
+      "text": "Il vestito buono per litigare."
+    },
+    {
+      "id": "fc-a-071",
+      "text": "Un bollino blu sull'autostima."
+    },
+    {
+      "id": "fc-a-072",
+      "text": "La poltrona delle cose da piegare."
+    },
+    {
+      "id": "fc-a-073",
+      "text": "Un gatto che mi mette in copia conoscenza."
+    },
+    {
+      "id": "fc-a-074",
+      "text": "La playlist per stendere i panni con intensità."
+    },
+    {
+      "id": "fc-a-075",
+      "text": "Un preventivo per cambiare vita."
+    },
+    {
+      "id": "fc-a-076",
+      "text": "Un convegno sulle cose che potevano andare meglio."
+    },
+    {
+      "id": "fc-a-077",
+      "text": "La pausa caffè che diventa una carriera."
+    },
+    {
+      "id": "fc-a-078",
+      "text": "Un matrimonio sponsorizzato dal discount."
+    },
+    {
+      "id": "fc-a-079",
+      "text": "Il filtro bellezza sulla carta d'identità."
+    },
+    {
+      "id": "fc-a-080",
+      "text": "Un bagno chimico con vista mare."
+    },
+    {
+      "id": "fc-a-081",
+      "text": "La nostalgia di quando avevo una cartilagine."
+    },
+    {
+      "id": "fc-a-082",
+      "text": "Un tour guidato dei miei fallimenti."
+    },
+    {
+      "id": "fc-a-083",
+      "text": "Il frigorifero aperto per cercare risposte."
+    },
+    {
+      "id": "fc-a-084",
+      "text": "Una lasagna fuori controllo."
+    },
+    {
+      "id": "fc-a-085",
+      "text": "Il parcheggio riservato agli insicuri."
+    },
+    {
+      "id": "fc-a-086",
+      "text": "Una notifica che rovina il weekend."
+    },
+    {
+      "id": "fc-a-087",
+      "text": "L'emoji del pollice in su usata come arma."
+    },
+    {
+      "id": "fc-a-088",
+      "text": "Il carrello online come terapia."
+    },
+    {
+      "id": "fc-a-089",
+      "text": "Un tapis roulant verso il nulla."
+    },
+    {
+      "id": "fc-a-090",
+      "text": "La dignità lasciata al guardaroba."
+    },
+    {
+      "id": "fc-a-091",
+      "text": "Il piano editoriale del mio cane."
+    },
+    {
+      "id": "fc-a-092",
+      "text": "Una dichiarazione d'amore con allegato Excel."
+    },
+    {
+      "id": "fc-a-093",
+      "text": "Un braccialetto VIP della sagra della cipolla."
+    },
+    {
+      "id": "fc-a-094",
+      "text": "Il conto corrente in modalità aereo."
+    },
+    {
+      "id": "fc-a-095",
+      "text": "L'ex che torna per recuperare il caricabatterie."
+    },
+    {
+      "id": "fc-a-096",
+      "text": "Il silenzio dopo una battuta spiegata."
+    },
+    {
+      "id": "fc-a-097",
+      "text": "Un mago che fa sparire solo gli stipendi."
+    },
+    {
+      "id": "fc-a-098",
+      "text": "Una focaccia usata come cuscino."
+    },
+    {
+      "id": "fc-a-099",
+      "text": "Un fax inviato dal futuro."
+    },
+    {
+      "id": "fc-a-100",
+      "text": "Il punto e virgola in un messaggio di rottura."
+    },
+    {
+      "id": "fc-a-101",
+      "text": "Una call con il microfono acceso per sbaglio."
+    },
+    {
+      "id": "fc-a-102",
+      "text": "Il manuale d'istruzioni della mia famiglia."
+    },
+    {
+      "id": "fc-a-103",
+      "text": "Una criptovaluta garantita da un «fidati»."
+    },
+    {
+      "id": "fc-a-104",
+      "text": "Un monopattino con aspirazioni politiche."
+    },
+    {
+      "id": "fc-a-105",
+      "text": "Il senso di colpa venduto al chilo."
+    },
+    {
+      "id": "fc-a-106",
+      "text": "Una bottiglia di vino con un piano."
+    },
+    {
+      "id": "fc-a-107",
+      "text": "Il menu degustazione dell'umiliazione."
+    },
+    {
+      "id": "fc-a-108",
+      "text": "Un ascensore che fa domande personali."
+    },
+    {
+      "id": "fc-a-109",
+      "text": "La terza porzione per educazione."
+    },
+    {
+      "id": "fc-a-110",
+      "text": "Una PEC al proprio ex."
+    },
+    {
+      "id": "fc-a-111",
+      "text": "Un pensionato che supervisiona il cantiere."
+    },
+    {
+      "id": "fc-a-112",
+      "text": "Il pane comprato solo per la scarpetta."
+    },
+    {
+      "id": "fc-a-113",
+      "text": "Una campagna elettorale per scegliere la pizza."
+    },
+    {
+      "id": "fc-a-114",
+      "text": "Il cane che ha più amici di me."
+    },
+    {
+      "id": "fc-a-115",
+      "text": "Un cristallo energetico scarico."
+    },
+    {
+      "id": "fc-a-116",
+      "text": "Un cactus con problemi di attaccamento."
+    },
+    {
+      "id": "fc-a-117",
+      "text": "La dieta che comincia ogni lunedì."
+    },
+    {
+      "id": "fc-a-118",
+      "text": "Un karaoke di messaggi vocali."
+    },
+    {
+      "id": "fc-a-119",
+      "text": "Il pranzo della domenica che finisce martedì."
+    },
+    {
+      "id": "fc-a-120",
+      "text": "Un biglietto di sola andata per il divano."
+    },
+    {
+      "id": "fc-a-121",
+      "text": "Il POS che funziona solo sotto minaccia."
+    },
+    {
+      "id": "fc-a-122",
+      "text": "Una laurea in scuse dell'ultimo minuto."
+    },
+    {
+      "id": "fc-a-123",
+      "text": "Un algoritmo allevato dalle zie."
+    },
+    {
+      "id": "fc-a-124",
+      "text": "Un letto matrimoniale per una persona e i suoi problemi."
+    },
+    {
+      "id": "fc-a-125",
+      "text": "Un contratto a tempo indeterminato con il caos."
+    },
+    {
+      "id": "fc-a-126",
+      "text": "Una figuraccia in diretta streaming."
+    },
+    {
+      "id": "fc-a-127",
+      "text": "Una minestrina con spirito di vendetta."
+    },
+    {
+      "id": "fc-a-128",
+      "text": "Un investimento immobiliare su Marte."
+    },
+    {
+      "id": "fc-a-129",
+      "text": "Il saluto imbarazzato al fisioterapista fuori dallo studio."
+    },
+    {
+      "id": "fc-a-130",
+      "text": "Un mucchio di cavi che potrebbero servire."
+    },
+    {
+      "id": "fc-a-131",
+      "text": "Un prete con un canale di unboxing."
+    },
+    {
+      "id": "fc-a-132",
+      "text": "La tenda della doccia che cerca affetto."
+    },
+    {
+      "id": "fc-a-133",
+      "text": "Un pollice accidentalmente sul cuore della foto del 2014."
+    },
+    {
+      "id": "fc-a-134",
+      "text": "Il pantalone elegante con l'elastico nascosto."
+    },
+    {
+      "id": "fc-a-135",
+      "text": "Una lezione di umiltà impartita dal bancomat."
+    },
+    {
+      "id": "fc-a-136",
+      "text": "Un'opinione non richiesta con spedizione gratuita."
+    },
+    {
+      "id": "fc-a-137",
+      "text": "Il dress code «casual disperato»."
+    },
+    {
+      "id": "fc-a-138",
+      "text": "Un abbraccio con ricevuta fiscale."
+    },
+    {
+      "id": "fc-a-139",
+      "text": "Una tessera fedeltà per appuntamenti disastrosi."
+    },
+    {
+      "id": "fc-a-140",
+      "text": "Un messaggio al gruppo sbagliato."
+    },
+    {
+      "id": "fc-a-141",
+      "text": "Un funerale per il mio metabolismo."
+    },
+    {
+      "id": "fc-a-142",
+      "text": "La motivazione comprata in saldo."
+    },
+    {
+      "id": "fc-a-143",
+      "text": "Un profumo chiamato «ascensore dopo la palestra»."
+    },
+    {
+      "id": "fc-a-144",
+      "text": "Una pianta sopravvissuta per rancore."
+    },
+    {
+      "id": "fc-a-145",
+      "text": "Il delivery ordinato mentre bolle la pasta."
+    },
+    {
+      "id": "fc-a-146",
+      "text": "Una monoporzione per quattro persone, ma solo per me."
+    },
+    {
+      "id": "fc-a-147",
+      "text": "La faccia di chi ha dimenticato di disattivare la videocamera."
+    },
+    {
+      "id": "fc-a-148",
+      "text": "Un litigio sul corretto caricamento della lavastoviglie."
+    },
+    {
+      "id": "fc-a-149",
+      "text": "Il portafoglio che emette un sospiro."
+    },
+    {
+      "id": "fc-a-150",
+      "text": "Un acquisto impulsivo di un'arpa."
+    },
+    {
+      "id": "fc-a-151",
+      "text": "Un cazzo di niente, ma in alta definizione."
+    },
+    {
+      "id": "fc-a-152",
+      "text": "La chat dell'ufficio dopo il terzo gin tonic."
+    },
+    {
+      "id": "fc-a-153",
+      "text": "Un preservativo con le istruzioni in burocratese."
+    },
+    {
+      "id": "fc-a-154",
+      "text": "Una sbornia con fattura elettronica."
+    },
+    {
+      "id": "fc-a-155",
+      "text": "Il sedere sudato su una sedia di plastica."
+    },
+    {
+      "id": "fc-a-156",
+      "text": "Un appuntamento romantico al CAF."
+    },
+    {
+      "id": "fc-a-157",
+      "text": "Un sex toy con aggiornamenti obbligatori."
+    },
+    {
+      "id": "fc-a-158",
+      "text": "L'ego del DJ del campeggio."
+    },
+    {
+      "id": "fc-a-159",
+      "text": "La voglia di mandare tutti a fanculo con gentilezza."
+    },
+    {
+      "id": "fc-a-160",
+      "text": "Il bidone dell'umido in piena estate."
+    }
+  ]
+}

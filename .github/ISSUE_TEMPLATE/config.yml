@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Segnalazione di sicurezza privata
+    url: https://github.com/K4pp8/fuori-contesto/security/advisories/new
+    about: Non pubblicare vulnerabilità o token nelle issue.

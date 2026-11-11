@@ -1,0 +1,21 @@
+name: Segnala un bug
+description: Un problema riproducibile nel gioco
+title: '[Bug] '
+body:
+  - type: textarea
+    id: steps
+    attributes:
+      label: Passi per riprodurre
+      description: Descrivi cosa fai e cosa succede. Non includere token o dati privati.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Risultato atteso
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Browser, dispositivo e versione del gioco

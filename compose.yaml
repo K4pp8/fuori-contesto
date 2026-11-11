@@ -1,0 +1,12 @@
+services:
+  game:
+    build: .
+    ports:
+      - '3000:3000'
+    environment:
+      PUBLIC_URL: ${PUBLIC_URL:-}
+    volumes:
+      - game-data:/app/data
+    restart: unless-stopped
+volumes:
+  game-data:
